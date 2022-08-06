@@ -1,6 +1,6 @@
 const inputAdd = document.getElementById("input-add-todo");
 const todoCtn = document.getElementById("todo-container");
-const localStorageName = "setyorsoodtorsoodporcmorsonghorsaikai";
+const localStorageName = "LocalStorage";
 
 inputAdd.onkeyup = (event) => {
   if (event.key !== "Enter") return;
